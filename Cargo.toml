@@ -6,15 +6,11 @@ edition = "2024"
 
 [dependencies]
 clap = { version = "4.5.40", features = ["derive"] }
-fluent = "0.17.0"
-globset = "0.4.16"
-regex = "1.11.1"
 smithay = "0.7.0"
 sys-locale = "0.3.2"
 unic-langid = "0.9.6"
 unic-locale = "0.9.6"
 wayland-server = "0.31.9"
-zbus = "5.8.0"
 smithay-client-toolkit = "0.19.2"
 wayland-client = "0.31.10"
 raw-window-handle = "0.6.2"
@@ -24,7 +20,6 @@ anyhow = "1.0.98"
 derive-getters = "0.5.0"
 vello = "0.5.0"
 pulseaudio = { git = "https://github.com/8roken/pulseaudio-rs.git" }
-calloop = "0.14.3"
 rustix = "1.0.8"
 wayland-backend = "0.3.11"
 crossbeam = "0.8.4"
