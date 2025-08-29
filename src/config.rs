@@ -17,7 +17,7 @@ pub struct Settings {
 impl Default for Settings {
     fn default() -> Self {
         Self {
-            size: (300, 300),
+            size: (300, 200),
             position: (0, 250),
             radius: 14.0,
             background_color: Color::from_rgba8(42, 40, 68, 220),
