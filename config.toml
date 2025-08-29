@@ -1,0 +1,13 @@
+[frame]
+radius = 14
+
+[frame.position]
+y = 250
+
+[frame.size]
+width = 300
+height = 200
+
+[color]
+background = [42, 40, 73, 230]
+foreground = [255, 255, 255, 100]
